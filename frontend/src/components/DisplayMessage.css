@@ -1,0 +1,21 @@
+.displayMessage {
+	margin-top: 1rem;
+	padding: 10px 0.5rem 2px 0.5rem;
+	border: solid black 0.1rem;
+	width: 100%;
+	font-family: Mali, cursive;
+	font-size: larger;
+	border-radius: 0.2rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.errorMessage {
+	background: -webkit-linear-gradient(60deg, rgb(250, 28, 28), rgb(226, 131, 131));
+	color: rgb(122, 46, 46);
+}
+
+.successMessage {
+	background: -webkit-linear-gradient(60deg, rgb(31, 134, 45), rgb(53, 223, 81));
+	color:rgb(51, 87, 48);
+}
