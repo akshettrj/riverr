@@ -18,11 +18,46 @@ $ cd backend && npm install && cd ..
 ```
 ## Starting
 * Starting the `backend`:
- ```shell 
+ ```shell
   $ cd backend && node server.js
   ```
 * Starting the `frontend`:
- ```shell 
+ ```shell
   $ cd frontend && npm start
   ```
 * Then go to [http://localhost:3000/](http://localhost:3000/) and **Voila!**
+
+## Screenshots
+
+### Home Page
+<img src="./screenshots/HomePage.png" />
+
+### Register
+<img src="./screenshots/Register.png" />
+
+### Login
+<img src="./screenshots/Login.png" />
+
+### Profile - Applicant
+<img src="./screenshots/ApplicantProfile.png" />
+
+### Profile - Recruiter
+<img src="./screenshots/RecruiterProfile.png" />
+
+### Recruiter - Create Jobs
+<img src="./screenshots/CreateJob.png" />
+
+### Recruiter - My Jobs
+<img src="./screenshots/MyJobs.png" />
+
+### Recruiter - My Employees
+<img src="./screenshots/Employees.png" />
+
+### Recruiter - Open Applications
+<img src="./screenshots/OpenApplications.png" />
+
+### Applicant - My Applications
+<img src="./screenshots/MyApplications.png" />
+
+### Applicant - Search For Jobs
+<img src="./screenshots/SearchJobs.png" />

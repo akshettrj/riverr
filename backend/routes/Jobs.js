@@ -428,14 +428,14 @@ router.patch("/moveApplicationForward", (req,res) => {
 			subject: "Congratulations!! Job Application Accepted",
 			text: `
 			Dear ${applicant.fName},
-					You have been selected for a job that you applied for under ${recruiter.fName}. 
+					You have been selected for a job that you applied for under ${recruiter.fName}.
 						Now you cannot apply for any more jobs now.
-					
+
 					Job Title: ${job.title}
 					Salary: ₹${job.monthlySalary}/month
 					Duration: ${durationString}
 					Type: ${jobTypeString}
-				
+
 				Regards
 				Riverr Team `
 		}
